@@ -66,6 +66,7 @@ body, html {
         display: block;
         text-align: left;
     }
+<<<<<<< HEAD
 }
 
 .banner {
@@ -144,3 +145,67 @@ ul {
     justify-content: space-around;
 
 }
+=======
+  }
+
+ .banner {
+  background-image: url("./bannerhome.png");
+  min-height: 600px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+ }
+
+ #titulohome {
+   font-family: montserrat, sans-serif;
+   color: #fff;
+   font-size: 50px;
+   word-break: break-word;
+   text-align: center;
+ }
+ 
+ @media screen and (max-width: 600px) {
+   #titulohome {
+    font-size: 100px;
+   }
+   #buscacurso {
+     width: 90%;
+   }
+   .cursos {
+     display: block;
+   }
+ }
+
+ footer {
+  font-family: montserrat, sans-serif;
+  text-align: center;
+  background-color: #575757;
+  color:#fff;
+  padding: 20px;
+  font-style: italic;
+ }
+
+ #buscacurso {
+   font-family: montserrat, sans-serif;
+   text-align: center;
+   width: 50%;
+   display: block;
+   margin: auto;
+   padding: 20px;
+ }
+
+ ul {
+  display: grid;
+ }
+
+ .cursos {
+   display: inline-block;
+   margin: 20px;
+ }
+>>>>>>> 37d1066aa12fd2af0a30d529486e2593893c8e10
