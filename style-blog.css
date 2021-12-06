@@ -1,5 +1,9 @@
-body {
-    display: flex;
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
 }
 
 
@@ -34,12 +38,12 @@ body {
     display: none;
   }
 
-.artigos {
-    float: right;
+  article {
+    width: 50%;
     display: block;
     color: #292929;
     text-align: center;
-    padding: 50px;
+    margin: auto;
     text-decoration: none;
     font-size: 17px;
     font-family: montserrat, sans-serif;
