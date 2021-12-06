@@ -6,6 +6,28 @@ body, html {
   margin: 0;
 }
 
+  .bannerblog {
+    background-image: url("./bannerblog.jpeg");
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    }
+
+    #tituloblog {
+      font-family: montserrat, sans-serif;
+      color: #fff;
+      font-size: 50px;
+      text-align: center;
+    }
+
+    @media(max-width: 600px){
+      #tituloblog{
+        font-size: 50px;
+      }
+    }
+
 
 .topnav {
     background-color: #fff;
@@ -38,7 +60,7 @@ body, html {
     display: none;
   }
 
-  article {
+  section {
     width: 50%;
     display: block;
     color: #292929;
@@ -48,3 +70,4 @@ body, html {
     font-size: 17px;
     font-family: montserrat, sans-serif;
 }
+

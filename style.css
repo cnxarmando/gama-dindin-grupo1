@@ -81,9 +81,9 @@ body, html {
    text-align: center;
  }
  
- @media(max-width: 600px) {
+ @media screen and (max-width: 600px) {
    #titulohome {
-    font-size: 50px;
+    font-size: 100px;
    }
    #buscacurso {
      width: 90%;
