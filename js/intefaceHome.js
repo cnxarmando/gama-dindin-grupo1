@@ -1,6 +1,21 @@
 let container = document.getElementById('container');
+const buscarCurso = document.querySelector('#buscacurso');
 
 window.addEventListener('DOMContentLoaded', render);
+buscarCurso.addEventListener('change', findCurso);
+
+async function findCurso() {
+    let input = buscarCurso.value;
+    if (input && input != '') {
+        try {
+            var curso = await getCursos(input);
+            container.innerHTML = '';
+            container.innerHTML = createCurso(curso[0]);
+        } catch {
+            container.innerHTML = "<p>Nenhum curso encontrado</p>";
+        }
+    } else render();
+}
 
 async function render() {
     let Cursos;
