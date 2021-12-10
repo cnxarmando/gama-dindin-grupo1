@@ -1,1 +1,1 @@
-# gama-dindin-gurpo1
+# gama-dindin-grupo1
