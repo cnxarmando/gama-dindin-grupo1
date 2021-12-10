@@ -6,20 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="educação financeira, educação, cursos online">
     <meta name="author" content="Digibee">
-    <link href="style-blog.css" rel="stylesheet" type="text/css">
+    <link href="./style/style-blog.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script>src = "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
-    <script>src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <title>Dindin - Educação financeira descomplicada</title>
 </head>
 
 <body>
     <main>
         <div class="topnav" id="menutop">
-            <img class="logo" src="./dindinlogo.png">
-            <a href="index.html" class="active">Home</a>
-            <a href="#cursos">cursos</a>
-            <a href="index-blog.html">blog</a>
+            <img class="logo" src="./assets/dindinlogo.png">
+            <a href="#Home" class="active">Home</a>
+            <a href="./index.html">cursos</a>
+            <a href="./index-blog.html">blog</a>
             <a href="#sobre">sobre</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
@@ -31,57 +31,23 @@
             <h1 id="tituloblog">Blog</h1>
         </div>
         <section class="artigos">
-            <article>
-                <img src="" alt="">
-                <h2></h2>
-                <p>Todo empreendedor precisa ter a consciência de que ter um bom controle financeiro empresarial faz com
-                    que o seu negócio se desenvolva e cresça. Então, ao colocar o controle financeiro em prática, fica
-                    possível organizar e avaliar toda a situação econômica e financeira da empresa. Neste artigo
-                    trazemos um pouco sobre o que é e como fazer o controle financeiro empresarial na prática.</p>
-                <h3>O que é um controle financeiro empresarial?</h3>
-                <p>O controle financeiro de uma empresa nada mais é do que fazer a análise da condição financeira
-                    completa através de processos como avaliação de relatórios, movimentação de fluxo de caixa, saldos
-                    bancários, entre outros.
-                    Sendo assim, o objetivo é garantir que oplanejamento financeiro seja seguidocorretamente, manter o
-                    saldo sempre positivoe obter lucro financeiro para conseguir maisinvestimentos, de curto e longo
-                    prazo. </p>
-            </article>
 
-            <article>
-                <img src="" alt="">
-                <h2>Fluxo de Caixa Livre: Entenda como funciona</h2>
-                <p>Em geral, para que uma empresa consiga se sustentar no mercado, é necessário avaliar como os
-                    processos internos estão funcionando, especialmente os aspectos financeiros!
-                    Entender como a gestão financeira está sendoconduzida no ambiente interno é crucial nãosomente para
-                    reduzir custos, mas também paraalocar dinheiro para áreas que efetivamenteentregam resultados
-                    positivos ao negócio.
-                    Nesse sentido, para entender como anda asituação da sua empresa, o fluxo de caixalivre pode ser o
-                    modelo ideal para oferecerinformações mais precisas e estratégicas.Quer saber como? Confira o nosso
-                    post dehoje e tire todas as suas dúvidas sobre oFluxo de Caixa Livre!</p>
-                <h3>Afinal, o que é Fluxo de Caixa Livre e qual a sua importância?</h3>
-                <p>Antes de tudo, podemos definir que o Fluxo de Caixa Livre nada mais é do que o saldo de caixa da
-                    empresa! Ou seja, é o saldo que estará disponível depois de todos os pagamentos obrigatórios já
-                    terem sido efetuados. Assim, entendemos que trata-se de um saldo positivo do caixa.
-                    De forma prática, ele pode ser usado pararealizar o pagamento de dividendos aosacionistas, ou até
-                    mesmo de dívidas em que aempresa possui interesse em pagar. Semcontar que o fluxo de caixa livre
-                    tambémpode ser utilizado para realizar a mediçãoda capacidade da empresa gerar caixa, ou atémesmo,
-                    realizar investimentos nodesenvolvimento da corporação.</p>
-            </article>
         </section>
 
         <footer>Orgulhosamente desenvolvido pelo Grupo 1!</footer>
 
         <script>
-                function myFunction() {
-                    var x = document.getElementById("menutop");
-                    if (x.className === "topnav") {
-                        x.className += " responsive";
-                    } else {
-                        x.className = "topnav";
-                    }
+            function myFunction() {
+                var x = document.getElementById("menutop");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
                 }
+            }
         </script>
-
+        <script src="./js/interfaceBlog.js"></script>
+        <script src="./js/app.js"></script>
 
 </body>
 

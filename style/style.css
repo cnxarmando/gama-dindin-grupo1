@@ -69,7 +69,7 @@ body, html {
 }
 
 .banner {
-    background-image: url("./bannerhome.png");
+    background-image: url("../assets/bannerhome.png");
     min-height: 600px;
     width: 100%;
     background-attachment: fixed;
