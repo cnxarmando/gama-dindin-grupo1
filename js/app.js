@@ -1,14 +1,13 @@
 const API = 'https://test.godigibee.io/pipeline/gama/v1/20211206-dindin-grupo1';
-const REQ = {
-    method: "GET",
-    headers: {
-        "Content-Type": "application/json",
-        "apikey": "DDuHO8yqVyyUx4J1nQpNUHAFK7pUJRw3",
-    }
-}
-
 
 function fetchJSON(URL) {
+    const REQ = {
+        method: "GET",
+        headers: {
+            "Content-Type": "application/json",
+            "apikey": "DDuHO8yqVyyUx4J1nQpNUHAFK7pUJRw3",
+        }
+    }
     return fetch(URL, REQ).then(resp => {
         return resp.json()
     }).then(r => {
